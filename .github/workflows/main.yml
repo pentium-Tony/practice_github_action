@@ -6,7 +6,7 @@ jobs:
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
-        uses: actions/practice_github_action@master
+        uses: pentium-Tony/practice_github_action@v2
       - name: Hello world action step
         uses: ./ # Uses an action in the root directory
         id: hello
